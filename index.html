@@ -1,0 +1,548 @@
+<!-- Desarrollado por Jorge 19/11/18 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica 12</title>
+    <style>
+    
+    ul {
+        list-style-type: none;
+        margin: 0 auto;
+        overflow: hidden;
+        background-color: #939393;
+        width: 63%;
+    }
+
+    ul.m2 {
+        list-style-type: none;
+        margin: 0 auto;
+        overflow: hidden;
+        background-color: white;
+        width: 95%;
+        font-size: 85%;
+        font-weight: bold;
+    }
+
+    li.m2 {
+        float: left;
+    }
+
+    li a.m2 {
+        display: block;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    li a.m2:hover:not(.active) {
+        background-color: #4e7eaa;
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: darkorange;
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+    }
+
+    body {
+        background-color: lightgrey;
+
+    }
+
+    h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        color: #566656;
+        font-style: italic;
+    }
+
+    h3 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: left;
+        color: #566656;
+    }
+
+    h4 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: left;
+        color: #566656;
+    }
+
+    h3.center {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        color: #566656;
+    }
+
+    h4.red {
+        color: darkred;
+
+    }
+    table.t1 {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    table.t2 {
+        margin: 0 auto;
+        width: 60%;
+        background-color: #CBC8B9;
+    }
+
+    table.tk {
+        margin: 0 auto;
+        width: 65%;
+        background-color: white;
+    }
+
+    hr {
+        color: black;
+    }
+
+    p {
+        color: #566656;
+        text-align: justify;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 75%;
+    }
+
+    p.bigger {
+        color: #566656;
+        text-align: justify;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 100%;
+        text-align: left;
+    }
+
+    img.p2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+    }
+    
+    .dropbtn {
+        background-color: white;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        font-size: 14px;
+        min-width: 130px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #4e7eaa;
+        color: white;
+    }
+    </style>
+</head>
+
+<body>
+    <h1> “  Café Central, más de 30 años de conciertos</h1>
+    <table class="t1">
+        <tr>
+
+            <td>
+                <h3><a href="http://www.cafecentralmadrid.com/carta/">La carta</a></h3>
+            </td>
+
+            <td>
+                <h3><a href="http://www.cafecentralmadrid.com/programa/">Programa</a></h3>
+            </td>
+
+            <td>
+                <h3><a href="http://www.cafecentralmadrid.com/reservas/">Reservas</a></h3>
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <img src="imgs/a0zlhVK.png">
+            </td>
+
+            <td>
+                <img src="imgs/MTEOkMN.png">
+            </td>
+
+            <td>
+                <img src="imgs/BzMZCIG.png">
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <p>Descubre nuestra amplia carta elaborada por Micky, nuestro</p>
+                <p>cocinero donostiarra. Entrantes, ensaladas, tostas y pinchos</p>
+                <p>entre otros platos, podrás comer mientras disfrutas de un</p>
+                <p>estupendo concierto.</p>
+            </td>
+
+            <td>
+                <p>Aquí conocerás nuestra programación mensual, con todos</p>
+                <p>los artistas que nos acompañarán sobre el escenario.</p>
+                <p>Conciertos con los mejores músicos nacionales e</p>
+                <p>internacionales.</p>
+            </td>
+
+            <td>
+                <p>Reservamos cada dia la mitad del atoro. Consulta el plano y</p>
+                <p>reserva tu sitio por teléfono, 91 369 41 43, de 18:00h a</p>
+                <p>20:00h, todos los dias.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <br>
+                <br>
+            <td>
+        </tr>
+        <table class="t2">
+            <tr>
+                <td>
+                    <h3>Horario:</h3>
+                </td>
+
+                <td>
+                    <h3>Twitter:</h3>
+                </td>
+
+                <td>
+                    <h3>Contacte con nosotros:</h3>
+                </td>
+
+                <td>
+                    <h3>Dónde estamos:</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="bigger"><b>Lunes:</b> De 12:30h a 02:30h</p>
+                    <p class="bigger"><b>Martes:</b> De 12:30h a 02:30h</p>
+                    <p class="bigger"><b>Miercoles:</b> De 12:30h a 02:30h</p>
+                    <p class="bigger"><b>Jueves:</b> De 12:30h a 02:30h</p>
+                    <p class="bigger"><b>Viernes:</b> De 12:30h a 03:30h</p>
+                    <p class="bigger"><b>Sábado:</b> De 11:30h a 03:30h</p>
+                    <p class="bigger"><b>Domingo:</b> De 11:30h a 02:30h</p>
+                </td>
+
+                <td>
+                    <h4 class="red">Tweets por @CafeCentralJazz</h4>
+                </td>
+
+                <td>
+                    <img src="/imgs/GF72X4i.png" width="250" height="150">
+                    <p><b>Dirección:</b> Plaza del Angel 10, 28012 Madrid</p>
+                    <p><b>Teléfono:</b> 91 369 41 43</p>
+                    <p><b>Nuestro faceobook:</b> aquí</p>
+                    <p><b>Email:</b> info@cafecentralmadrid.com</p>
+                </td>
+
+                <td>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d932.303892382798!2d-0.3777838707452019!3d39.47813019871785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f53aac93295%3A0x2049acb5a4fcd1cc!2zUGxhw6dhIGRlIGwnw4BuZ2VsLCAxMCwgNDYwMDMgVmFsw6huY2lh!5e1!3m2!1ses!2ses!4v1542652816036" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </td>
+
+            </tr>
+        </table>
+    </table>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <img src="/imgs/GpgynJF.png" class="p2">
+    <ul>
+        <li><a href="http://www.cafemercedes.es/index.php">INICIO</a></li>
+        <li><a href="http://www.cafemercedes.es/conciertos.php">CONCIERTOS</a></li>
+        <li><a href="http://www.cafemercedes.es/elclub.php">EL CLUB</a></li>
+        <li><a href="http://www.cafemercedes.es/localizacion.php">LOCALIZACIÓN</a></li>
+        <li><a href="http://www.cafemercedes.es/contacto.php">CONTACTO</a></li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <img src="/imgs/8UgxCrH.png" class="p2">
+    <table class="tk">
+        <tr>
+            <td>
+                <hr>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            <ul class="m2">
+                <div class="dropdown">
+                        <a href="https://www.levante-emv.com/comunitat-valenciana/"><button class="dropbtn">C.Valenciana</button></a>
+                    <div class="dropdown-content">
+                    <a href="https://www.levante-emv.com/valencia/">Valencia</a>
+                    <a href="https://www.levante-emv.com/fallas/">Fallas</a>
+                    <a href="https://www.levante-emv.com/castello/">Castelló</a>
+                    <a href="https://www.levante-emv.com/safor/">Safor</a>
+                    <a href="https://www.levante-emv.com/ribera/">Ribera</a>
+                    <a href="https://www.levante-emv.com/costera/">Costera-Vall-Canal</a>
+                    <a href="https://www.levante-emv.com/morvedre/">Camp de Morvedre</a>
+                    <a href="https://www.levante-emv.com/horta/">L'Horta</a>
+                    <a href="https://www.levante-emv.com/marina/">Marina</a>
+                    <a href="https://www.levante-emv.com/comunitat-valenciana/camp-de-turia/">Camp de Túria</a>
+                    <a href="https://www.levante-emv.com/comunitat-valenciana/requena-utiel/">Requena - Utiel</a>
+                    <a href="https://www.levante-emv.com/comarcas/">Más Comarcas</a>
+                    <a href="https://www.levante-emv.com/comunitat-valenciana/municipios.html">MUNICIPIOS</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                        <a href="https://www.levante-emv.com/espana/"><button class="dropbtn">Más noticias</button></a>
+                    <div class="dropdown-content">
+                    <a href="https://www.levante-emv.com/sucesos/">Sucesos</a>
+                    <a href="https://www.levante-emv.com/espana/">España</a>
+                    <a href="https://www.levante-emv.com/internacional/">Internacional</a>
+                    <a href="https://www.levante-emv.com/sociedad/">Sociedad</a>
+                    <a href="https://www.levante-emv.com/tags/ciencia.html">Ciencia</a>
+                    <a href="https://www.levante-emv.com/tags/medio-ambiente.html">Medio Ambiente</a>
+                    <a href="https://www.levante-emv.com/especiales/formacion/">Formación y Educación</a>
+                    <a href="https://www.levante-emv.com/aula/">Aula</a>
+                    <a href="https://www.levante-emv.com/solidarios/">Solidarios</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                        <a href="https://www.levante-emv.com/deportes/"><button class="dropbtn">Deportes</button></a>
+                        <div class="dropdown-content">
+                        <a href="https://www.levante-emv.com/valencia-cf/">Valencia CF</a>
+                        <a href="https://www.levante-emv.com/villarreal-cf/">Villarreal CF</a>
+                        <a href="https://www.levante-emv.com/levante-ud/">Levante UD</a>
+                        <a href="https://www.levante-emv.com/deportes/futbol/directo/primera-division/">Resultados fútbol</a>
+                        <a href="https://www.levante-emv.com/deportes/futbol/primera-division/equipos.html">LaLiga Santander</a>
+                        <a href="https://www.levante-emv.com/deportes/futbol/segunda-division/equipos.html">LaLiga 123</a>
+                        <a href="https://www.levante-emv.com/deportes/futbol/quiniela/">Quiniela</a>
+                        <a href="https://www.levante-emv.com/deportes/baloncesto/acb/clasificacion.html">Baloncesto</a>
+                        <a href="https://www.levante-emv.com/deportes/baloncesto/nba/clasificacion.html">NBA</a>
+                        <a href="https://formula1.lne.es/">Formula 1</a>
+                        <a href="https://www.levante-emv.com/motogp/">Moto GP</a>
+                        <a href="https://www.levante-emv.com/carreras-populares/">Carreras Populares</a>
+                        <a href="https://www.levante-emv.com/deportes/fichajes/">Fichajes</a>
+                        <a href="https://www.levante-emv.com/pilota-valenciana/">Pilota Valenciana</a>
+                        <a href="https://www.levante-emv.com/esports/">eSportszone</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                        <a href="https://www.levante-emv.com/economia/"><button class="dropbtn">Economía</button></a>
+                        <div class="dropdown-content">
+                        <a href="https://www.levante-emv.com/suscriptor/mercantil-valenciano/">El Mercantil Valenciano</a>
+                        <a href="https://www.levante-emv.com/finanzas-personales/">Finanzas personales</a>
+                        <a href="https://www.levante-emv.com/innovadores/">Innovadores</a>
+                        <a href="https://www.levante-emv.com/tags/empleo.html">Empleo</a>
+                        <a href="https://www.levante-emv.com/tags/formacion.html">Formación</a>
+                        <a href="https://www.levante-emv.com/tags/ayudas.html">Ayudas</a>
+                        <a href="https://www.levante-emv.com/tags/servef.html">SERVEF</a>
+                        <a href="https://www.levante-emv.com/distrito-ceramico/">Distrito Cerámico</a>
+                        <a href="https://www.levante-emv.com/distrito-portuario/">Distrito Portuario</a>
+                        <a href="https://www.levante-emv.com/infraestructuras-logistica/">Infraestructuras</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                        <a href="https://www.levante-emv.com/opinion/"><button class="dropbtn">Opinión</button></a>
+                        <div class="dropdown-content">
+                        <a href="https://www.levante-emv.com/opinion/">Firmas del día</a>
+                        <a href="https://www.levante-emv.com/cartas-director/">Cartas de los lectores</a>
+                        <a href="https://www.levante-emv.com/multimedia/fotos/comunitat-valenciana/2016-05-13-59836-humor-grafico-ortifus.html">Viñetas de Ortifus</a>
+                        <a href="https://www.levante-emv.com/multimedia/fotos/comunitat-valenciana/2016-05-13-59836-humor-grafico-ortifus.html">Humor gráfico de Xipell</a>
+                        <a href="https://www.levante-emv.com/tags/los-anos-botanicos.html">Los años botánicos</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                        <a href="https://www.levante-emv.com/cultura/"><button class="dropbtn">Cultura</button></a>
+                        <div class="dropdown-content">
+                        <a href="https://www.levante-emv.com/cultura/panorama/">Panorama</a>
+                        <a href="https://www.levante-emv.com/paraula-del-dia/">La Paraula del Dia</a>
+                        <a href="https://www.levante-emv.com/tags/libros.html">Libros</a>
+                        <a href="https://ocio.levante-emv.com/cine/">Cine</a>
+                        <a href="https://ocio.levante-emv.com/agenda/">Agenda</a>
+                        <a href="https://www.levante-emv.com/tags/musica.html">Música</a>
+                        <a href="https://musica.levante-emv.com/">Música Indie</a>
+                        <a href="https://www.levante-emv.com/tags/arte.html">Arte</a>
+                        <a href="https://www.levante-emv.com/tags/teatro.html">Teatro</a>
+                        <a href="https://www.levante-emv.com/suscriptor/posdata/">Posdata</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                        <a href="https://ocio.levante-emv.com/"><button class="dropbtn">Ocio</button></a>
+                        <div class="dropdown-content">
+                        <a href="https://ocio.levante-emv.com/cine/">Cine</a>
+                        <a href="https://ocio.levante-emv.com/tv/">TV</a>
+                        <a href="https://www.levante-emv.com/tags/seriofilos.html">Seriófilos</a>
+                        <a href="https://ocio.levante-emv.com/hosteleria/">Restaurantes y Alojamientos</a>
+                        <a href="http://www.55mejoresrestaurantes.com/">55 Mejores Restaurantes</a>
+                        <a href="https://ocio.levante-emv.com/gastronomia/">Gastronomía</a>
+                        <a href="https://www.levante-emv.com/vinos/">Vinos</a>
+                        <a href="https://ocio.levante-emv.com/planes/">Planes</a>
+                        <a href="https://ocio.levante-emv.com/agenda/">Agenda</a>
+                        <a href="https://www.levante-emv.com/a-mi-aire/">A mi aire</a>
+                        <a href="https://ocio.levante-emv.com/agenda/valencia/actividades-ninos/">Infantil</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                        <a href="https://www.levante-emv.com/vida-y-estilo/"><button class="dropbtn">Vida&Estilo</button></a>
+                        <div class="dropdown-content">
+                        <a href="https://www.levante-emv.com/motor/">NEOMOTOR</a>
+                        <a href="https://www.levante-emv.com/urban/">URBAN</a>
+                        <a href="https://www.levante-emv.com/vida-y-estilo/moda-belleza/">Moda y Belleza</a>
+                        <a href="https://www.levante-emv.com/vida-y-estilo/decoracion/">Decoración</a>
+                        <a href="https://www.levante-emv.com/vida-y-estilo/salud/">Salud y bienestar</a>
+                        <a href="https://www.levante-emv.com/vida-y-estilo/tecnologia/">Tecnologia</a>
+                        <a href="https://www.levante-emv.com/vida-y-estilo/gente/">Gente</a>
+                        <a href="https://www.levante-emv.com/buzzeando/">Buzzeando</a>
+                        <a href="https://www.levante-emv.com/vida-y-estilo/fashion-arts/">Fashion&Arts</a>
+                        <a href="https://www.levante-emv.com/vida-y-estilo/mascotas/">Mascotas</a>
+                        <a href="https://www.levante-emv.com/esports/">eSportszone</a>
+                        <a href="https://www.levante-emv.com/especiales/miralfuturo/">Mira al Futuro</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                        <a href="https://www.levante-emv.com/participacion/"><button class="dropbtn">Participación</button></a>
+                        <div class="dropdown-content">
+                        <a href="https://www.levante-emv.com/blogs/">Blogs Destacados</a>
+                        <a href="https://www.levante-emv.com/encuestas/">Encuestas</a>
+                        <a href="https://www.levante-emv.com/concursos/">Concursos</a>
+                        <a href="https://comunidad.levante-emv.com/servicios/entrevistaChat/listarEntrevistasChat.jsp?pIdPortal=12">Chats</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                        <a href="https://www.levante-emv.com/multimedia/"><button class="dropbtn">Multimedia</button></a>
+                        <div class="dropdown-content">
+                        <a href="https://www.levante-emv.com/multimedia/videos/">Videos</a>
+                        <a href="https://www.levante-emv.com/multimedia/fotos/">Fotos</a>
+                        <a href="https://www.levante-emv.com/multimedia/audios/">Audios</a>
+                        <a href="http://www.levantetv.es/">INFORMACION TV</a>
+                    </div>
+                </div>
+            </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <hr>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
